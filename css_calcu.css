@@ -1,0 +1,46 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #303030;
+}
+.calculator {
+    width: 320px;
+    background: black;
+    padding: 20px;
+    border-radius: 40px;
+}
+#display {
+    height: 80px;
+    font-size: 2rem;
+    background: black;
+    color: white;
+    border: none;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button {
+    height: 60px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.zero-btn {
+    grid-column: span 2;
+    width: 100%;
+}
+.btn-dark {
+    background: #505050;
+    color: white;
+}
+.btn-secondary {
+    background: #303030;
+    color: white;
+}
+.btn-warning {
+    background: #ff9500;
+    color: white;
+}
